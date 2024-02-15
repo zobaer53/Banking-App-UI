@@ -8,6 +8,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.zobaer53.banking_ui.bottomnav.BottomNavigationBar
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Preview
@@ -15,7 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 fun HomeScreen() {
     Scaffold(
         bottomBar = {
-            //BottomNavigationBar()
+            BottomNavigationBar()
                     },
     ) {
         Column(
