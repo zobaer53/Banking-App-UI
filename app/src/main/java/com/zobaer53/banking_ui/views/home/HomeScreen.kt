@@ -1,5 +1,6 @@
 package com.zobaer53.banking_ui.views.home
 
+import WalletSection
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -8,7 +9,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.zobaer53.banking_ui.bottomnav.BottomNavigationBar
+import com.zobaer53.banking_ui.views.bottomnav.BottomNavigationBar
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Preview
@@ -24,7 +25,7 @@ fun HomeScreen() {
                 .fillMaxSize()
                 .padding(it)
         ) {
-            //topAppBarSection()
+            WalletSection()
             //cardSection()
             //financeSection()
             //currenciesSection()
