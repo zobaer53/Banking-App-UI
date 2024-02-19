@@ -26,7 +26,7 @@ fun HomeScreen() {
                 .padding(it)
         ) {
             WalletSection()
-            //cardSection()
+            CardsSection()
             //financeSection()
             //currenciesSection()
 
