@@ -19,6 +19,17 @@
   
 </p>
 
+# Screens
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="1%"><img src="https://github.com/zobaer53/Banking-App-UI/blob/master/medias/lightMode.png"/></td>
+      <td width="1%"><img src="https://github.com/zobaer53/Banking-App-UI/blob/master/medias/darkMode.png"/></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
