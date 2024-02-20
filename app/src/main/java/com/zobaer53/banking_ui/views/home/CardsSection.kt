@@ -24,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.zobaer53.banking_ui.R
 import com.zobaer53.banking_ui.data.Card
 import com.zobaer53.banking_ui.ui.theme.BlueEnd
@@ -117,19 +118,19 @@ fun CardItem(index: Int) {
             Text(
                 text = card.cardType,
                 color = Color.White,
-                fontSize = TextUnit.Unspecified,
+                fontSize = 17.sp,
                 fontWeight = FontWeight.Bold,
             )
             Text(
                 text = "$ ${card.balance}",
                 color = Color.White,
-                fontSize = TextUnit.Unspecified,
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold
             )
             Text(
                 text = card.cardNumber,
                 color = Color.White,
-                fontSize = TextUnit.Unspecified,
+                fontSize = 17.sp,
                 fontWeight = FontWeight.Bold
             )
 
